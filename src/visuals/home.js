@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Course1 from "../udemylogo/course-1.png";
-
+import {NavLink} from "react-router-dom";
 function HomePage () {
 
     const [popularCourse, setPopularCourse] = useState([
@@ -30,7 +30,7 @@ function HomePage () {
     var courseList = [];
     for (let i = 0; i < popularCourse.length; i++) {
         courseList.push(
-            <a href ="#" className = "course rel" key = {"popular-course-" + i}>
+            <NavLink to ={"/content/" + popularCourse[i].ID} className = "course rel" key = {"popular-course-" + i}>
                 <div className = "blk rel" style = {{
                     background : "lightgrey url(" + popularCourse[i].poster + ")"
                 }}>
@@ -52,7 +52,7 @@ function HomePage () {
                     </div>
 
                 </div>
-            </a>
+            </NavLink>
         )
 
     }

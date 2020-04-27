@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import {NavLink} from "react-router-dom";
 import Course1 from "../udemylogo/course-1.png";
 
 function ContentPage(props) {
@@ -44,6 +44,12 @@ return(
             </div>
 
         </div>
+
+        <NavLink className = "nav-img" to = "/">Go Back Home</NavLink>
+            <br />
+            <NavLink className = "nav-img" to = "/videopage">Video</NavLink>
+            <br />
+            <NavLink className = "nav-img" to  = "/imgur">Upload Image</NavLink>
         
     </div>
 )

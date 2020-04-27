@@ -1,11 +1,12 @@
 import React, { useState } from "react";
 import logo from "../udemylogo/logo-coral.svg";
+import {NavLink} from "react-router-dom";
 function Feed() { 
 
     const [nav, setNav] = useState([
         {label : "Home", slug : "/", icon : "ico ico-home"},
-        {label : "Videos", slug : "video", icon : "ico ico-home"},
-        {label : "Images", slug : "image", icon : "ico ico-home"}
+        {label : "Videos", slug : "videopage", icon : "ico ico-home"},
+        {label : "Images", slug : "imgur", icon : "ico ico-home"}
     ])
 
     const [currentPage, setCurrentPage] = useState("/")
@@ -14,10 +15,10 @@ function Feed() {
     for (let i = 0; i < nav.length; i++){
         navigation.push(
             <li key = {"nav-" + i + "-" + nav[i].slug}>
-            <a href = {nav[i].slug} className = {"link noul flex grey" + (currentPage == nav[i].slug? " on": "")} >
+            <NavLink to = {nav[i].slug} className = {"link noul flex grey" + (currentPage == nav[i].slug? " on": "")} >
                 <div className = {"ico s20 " + nav[i].icon}/>
                 <h2 className = "lbl s20">{nav[i].label}</h2>
-            </a>
+            </NavLink>
         </li>
         )
     }
