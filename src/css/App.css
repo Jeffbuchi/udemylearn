@@ -1,0 +1,74 @@
+.feed {
+  width: 275px;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  
+ 
+}
+.feed .logo{
+  padding: 20px 25px;
+}
+
+.feed .logo img {
+  height: 40px;
+}
+
+.feed .nav {
+  padding: 50px 35px;
+}
+.feed .nav li a {
+  align-items: center;
+  padding: 10px 20px;
+  margin-bottom: 6px;
+}
+.feed .nav li a .ico {
+  margin-right: 10px;
+}
+
+
+
+.feed .nav li a.on .active,
+.feed .nav li a.on {
+  color: lightsalmon;
+  line-height: 1;
+}
+
+.feed .updated-course {
+  padding: 0px 35px;
+  margin: 20px 0px
+}
+
+.feed .updated-course .ico{
+  background: lightsalmon;
+  color: white;
+  padding: 10px;
+  border-radius: 22px;
+}
+
+.feed .updated-course .lbl{
+  font-weight: bolder;
+  font-size: 15px;
+}
+
+.feed .me{
+  padding: 20px 40px;
+}
+.feed .me .photo{
+  width: 20px;
+  height: 20px;
+  border-radius: 25px;
+  overflow: hidden;
+  margin-right: 10px;
+  background: white;
+
+
+}
+.feed .me img{
+  width: 40%;
+  height: 40%;
+  border-radius: 50%;
+}
+.feed .me .lbl{
+  font-weight: bolder;
+}
