@@ -24,7 +24,7 @@ function Feed() {
 
     
     return(
-        <div className = "feed fixed">
+        <div className = "feed rel">
              <a href = "#" className = "logo block">
                 <img src = {logo} className ="block" />
             </a>

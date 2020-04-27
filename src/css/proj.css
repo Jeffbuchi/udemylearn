@@ -14,9 +14,15 @@ h1,h2,h3,h4,h5,h6 {
     margin: 0px;
     padding: 0px
 }
+button {
+    outline: none;
+    cursor: pointer
+}
 
 .flex{position: flex}
-
+.fixed{position: fixed;}
+.abs{position: absolute}
+.rel{position: relative}
 .block {display: block}
 .noul{text-decoration: none;}
 .grey{color: grey;}
@@ -25,3 +31,18 @@ h1,h2,h3,h4,h5,h6 {
 .s13{font-size: 15px;}
 .s20{font-size: 20px;}
 .s7{font-size: 25px}
+.s24 {font-size: 20px;}
+.s15{font-size: 20px;
+    font-family: tahoma;
+    color: azure;
+}
+
+.fontb {
+    font-weight: normal;
+}
+.fontz {
+    color: white;
+    font-size: 13px;
+    font-style: italic;
+    
+}

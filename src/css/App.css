@@ -1,8 +1,6 @@
 .feed {
   width: 275px;
-  top: 0px;
-  left: 0px;
-  bottom: 0px;
+  
   
  
 }
@@ -71,4 +69,87 @@
 }
 .feed .me .lbl{
   font-weight: bolder;
+}
+
+.app-content {
+  flex: 2;
+  padding: 20px 0px;
+}
+
+
+.home-page{
+  margin-left: 280px;
+}
+.home-page .section .title{
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-family: "Lucida Sans Unicode";
+  color: brown;
+  margin-left: 300px;
+}
+
+.home-page .section .tutors .tutor{
+  border: 2px lightpink solid;
+  background: white;
+  width: 60px;
+  height: 60px;
+  overflow: hidden;
+  margin-right: 20px;
+  border-radius: 50px;
+  padding: 3px
+}
+
+.home-page .section .tutors .tutor img{
+  width: 100%;
+  height: 100%;
+  border-radius: 55px
+}
+
+.home-page .section2{
+  margin-top: 50px;
+}
+
+.blk {
+  width: 300x;
+  height: 300px;
+  background: lightgrey;
+  border-radius: 20px;
+  background-size: cover !important;
+}
+.blk .user .inset{
+  width: 40px;
+  height: 40px;
+  border: 2px white solid;
+  border-radius: 50%;
+  padding: 3px;
+  margin-right: 10px;
+ 
+  
+}
+
+ .blk .user img{
+  width: 70%;
+  height: 70%;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+ .blk .dura {
+  top: 145px;
+  left: 20px;
+  background: blueviolet;
+  line-height: 1;
+  padding: 10px;
+  border-radius: 25px;
+  z-index: 1;
+}
+
+.blk .course-title {
+  bottom: 15px;
+  left: 15px;
+  right: 15px;
+  background: rgba(0, 0, 0, 0.75);
+  padding: 15px 20px;
+  border-radius: 20px;
+  text-shadow: 1px 1px 1px black;
 }
