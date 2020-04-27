@@ -153,3 +153,68 @@
   border-radius: 20px;
   text-shadow: 1px 1px 1px black;
 }
+
+
+.content-page {
+  margin-left: 300px;
+  
+}
+
+
+
+
+.content-page .tutor .inset img{
+  width: 50px;
+  height: 50px;
+  border-radius: 10%;
+}
+
+.content-page .content-meta{
+  padding: 40px 0px;
+}
+.content-page .content-meta .title{
+  font-weight: 600;
+  font-family: 'Times New Roman';
+  color: darkblue;
+
+}
+.content-page .content-meta .about {
+  font-size: 20px;
+  font-family: 'Times New Roman';
+  color: firebrick;
+}
+.content-video{
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 20px 0px;
+}
+.content-video a{
+  margin: 10px 0px;
+}
+.content-video a .id{
+  background: blue;
+  color: white;
+  flex: 1;
+  width: 50px;
+  height: 20px;
+  border-radius: 14px;
+  padding: 20px 14px;
+  box-sizing: border-box;
+ 
+  
+}
+.content-video a .meta{
+  margin-bottom: 10px;
+}
+
+.content-info{
+  flex: 1;
+}
+
+.content-preview{
+  flex: 2 1;
+}
+
+.content .about {
+  font-family: 'Times New Roman';
+}

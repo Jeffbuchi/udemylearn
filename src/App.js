@@ -5,14 +5,15 @@ import './css/proj.css';
 import Header from './visuals/header';
 import Feed from './visuals/feed';
 import HomePage from './visuals/home';
+import ContentPage from './visuals/content';
 
 function App () {
   return (
     <div className = "App flex">
       < Feed/>
-      <div className = "app-content">
-      < HomePage/>
-      </div>
+      
+      < ContentPage/>
+      
       
     </div>
   )

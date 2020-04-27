@@ -57,7 +57,7 @@ function HomePage () {
 
     }
     return(
-        <div className = "home-page rel">
+        <div className = "home-page ">
             <div className = "section rel">
             <h2 className = "title s24 fontb">Learn on your schedule </h2>
             <div className = "tutors rel flex">
