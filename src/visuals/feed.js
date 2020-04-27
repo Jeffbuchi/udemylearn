@@ -9,13 +9,13 @@ function Feed() {
         {label : "Images", slug : "imgur", icon : "ico ico-home"}
     ])
 
-    const [currentPage, setCurrentPage] = useState("/")
+   
 
     var navigation = [];
     for (let i = 0; i < nav.length; i++){
         navigation.push(
             <li key = {"nav-" + i + "-" + nav[i].slug}>
-            <NavLink to = {nav[i].slug} className = {"link noul flex grey" + (currentPage == nav[i].slug? " on": "")} >
+            <NavLink to = {nav[i].slug} className = {"link noul flex grey"} >
                 <div className = {"ico s20 " + nav[i].icon}/>
                 <h2 className = "lbl s20">{nav[i].label}</h2>
             </NavLink>

@@ -218,3 +218,82 @@
 .content .about {
   font-family: 'Times New Roman';
 }
+
+.welcome {
+  margin-left: 280px;
+  margin: 20px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+ 
+}
+
+.text-logon {
+  margin-left: 400px;
+  font-weight: bolder;
+  font-size: 22px;
+  color: darkblue;
+}
+
+
+
+
+.logon {
+  margin-left: 200px;
+  margin-top: 10px;
+  font-weight: bolder;
+  background-color:darkgrey;
+  
+}
+
+  
+.welcome img {
+  margin-left: 300px;
+  margin-top: 5px;
+}
+
+.get-image {
+  margin-left: 350px;
+}
+.nav-img {
+  color: lightseagreen;
+  font-family:  'sans-serif';
+  font-weight: bold;
+}
+
+.img-text {
+  font-family: 'Lucida Sans Unicode';
+  color: deeppink;
+}
+
+.img-content{
+  font-family: 'Lucida Sans Unicode';
+  
+}
+
+.img-login {
+  border-radius: 50px;
+  margin-top: 2px;
+}
+.youtubediv {
+  margin-left: 980px;
+  padding: 20px 0px;
+  
+ 
+  }
+  .youtubediv {
+    margin-left: 300px;
+    
+  }
+
+  .youbtn {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 20px;
+    margin-left: 350px;
+    background-color: aqua;
+  }
+
+  .vid-text{
+    font-family:  'Lucida Sans Unicode';
+    color: crimson;
+  }
