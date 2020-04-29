@@ -34,7 +34,7 @@ import StarRatings from "react-star-ratings";
             <br />
             <h3 className = "img-content">Star ratings</h3>
             <br />
-            <StarRatings rating={2.403} starRatedColor = "gold" starDimension="30px" starSpacing="15px"/>
+            <StarRatings rating={3.403} starRatedColor = "gold" starDimension="30px" starSpacing="15px"/>
       <br />
             <input type = "file" name = "file" placeholder = "upload image" onChange = {uploadImage}/>
                 {loading ? (<h3>Loading.....</h3>):(<img src = {image} style = {{width : '300px'}}/>)}

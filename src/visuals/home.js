@@ -72,6 +72,8 @@ function HomePage () {
                 </div>
             </div>
 
+            <br />
+            <NavLink className = "nav-img" to  = "/dblist">Link to Server</NavLink>
 
         </div>
     )

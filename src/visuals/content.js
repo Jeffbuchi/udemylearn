@@ -50,6 +50,7 @@ return(
             <NavLink className = "nav-img" to = "/videopage">Video</NavLink>
             <br />
             <NavLink className = "nav-img" to  = "/imgur">Upload Image</NavLink>
+          
         
     </div>
 )

@@ -2,7 +2,7 @@ import React from "react";
 import './css/App.css';
 import './css/proj.css';
 
-import Header from './visuals/header';
+import DataBaseList from './visuals/dblist';
 import Feed from './visuals/feed';
 import HomePage from './visuals/home';
 import ContentPage from './visuals/content';
@@ -23,6 +23,7 @@ function App () {
         <Route path = "/content/:contentid" component = {ContentPage}/>
         <Route path = "/imgur" component = {Images}/>
         <Route path = "/videopage" component = {YoutubePage}/>
+        <Route path = "/dblist" component = {DataBaseList}/>
         
         
       </div>
