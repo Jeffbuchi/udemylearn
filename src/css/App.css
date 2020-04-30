@@ -292,8 +292,10 @@
   
   
 .welcome img {
-  margin-left: 300px;
+  margin-left: 380px;
   margin-top: 5px;
+  width: 70px;
+  height: 70px
 }
 
 .get-image {

@@ -2,9 +2,23 @@ import React, {useState} from "react";
 import StarRatings from "react-star-ratings";
 
 
-   function Images() {
-       const [image, setImage] = useState("");
+   const Images = () => {
+       function useLocalState(localItem){
+           const [loc, setState] = useState(localStorage.getItem(localItem));
+
+            function setLoc(newItem){
+                localStorage.setItem(localItem, newItem);
+                setState(newItem);
+            }
+
+
+           return[loc, setLoc]
+       }
+       //const [image, setImage] = useState("");
+       const [image, setImage] = useLocalState("image");
        const [loading, setLoading] = useState(false);
+       //const [loading, setLoading] = useLocalState(false);
+
        
 
        const uploadImage = async e => {
@@ -26,6 +40,7 @@ import StarRatings from "react-star-ratings";
            setImage(file.secure_url)
            setLoading(false)
        } 
+       
 
     return(
         <div className = "get-image">
@@ -37,7 +52,7 @@ import StarRatings from "react-star-ratings";
             <StarRatings rating={3.403} starRatedColor = "gold" starDimension="30px" starSpacing="15px"/>
       <br />
             <input type = "file" name = "file" placeholder = "upload image" onChange = {uploadImage}/>
-                {loading ? (<h3>Loading.....</h3>):(<img src = {image} style = {{width : '300px'}}/>)}
+                {loading ? (<h3>Loading.....</h3>):(<img src = {image} style = {{width : '200px'}}/>)}
         </div>
     );
 
