@@ -2,28 +2,15 @@ import React, { useEffect,useState } from "react";
 import ReactDOM from "react-dom";
 import GoogleLogin from "react-google-login";
 
-const WelcomePage = () => {
-    function useLocalState(localItem){
-        const [loc, setState] = useState(localStorage.getItem(localItem));
-
-        function setLoc(newItem){
-            localStorage.setItem(localItem, newItem);
-            setState(newItem);
-        }
-        
-        return[loc,setLoc]
-    }
+function WelcomePage() {
 
     useEffect(() => {
         document.title = "Welcome"
     })
-    //const [login, setLogin] = useState(false);
-    const [login, setLogin] = useLocalState(false);
-    //const [name, setName] = useState("");
-    const [name, setName] = useLocalState("name");
+    const [login, setLogin] = useState(false);
+    const [name, setName] = useState("");
     const [email, setEmail] = useState("");
-    //const [url, setUrl] = useState("");
-    const [url, setUrl] = useLocalState("url");
+    const [url, setUrl] = useState("");
     const responseGoogle = response => {
        setName(response.profileObj.name);
        setEmail(response.profileObj.email);
@@ -44,9 +31,6 @@ const WelcomePage = () => {
     onFailure={responseGoogle}
     cookiePolicy={'single_host_origin'}
     />: ""}
-
-        
-
         </div>
     
 );
