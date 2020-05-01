@@ -47,6 +47,8 @@ import StarRatings from "react-star-ratings";
 
             <h1 className = "img-text">Upload Image Here</h1>
             <br />
+            <p className = "p-text"> To select and also change a file, click the choose file button below. The files are available in JPG, PNG and JPEG formats</p>
+            <br />
             <h3 className = "img-content">Star ratings</h3>
             <br />
             <StarRatings rating={3.403} starRatedColor = "gold" starDimension="30px" starSpacing="15px"/>
