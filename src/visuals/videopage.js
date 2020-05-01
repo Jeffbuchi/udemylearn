@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 import StarRatings from "react-star-ratings";
 
-const API = 'AIzaSyCp1NHynZiTLnk2A6ATGbXxr9_-OzVEq2Y';
+const API = 'AIzaSyAgRsxcarUas22r0lWEQpFQwhtcapjiapg';
 const channelID = 'UC4QZ_LsYcvcq7qOsOhpAX4A';
 const result = 10;
 
